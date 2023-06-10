@@ -44,6 +44,11 @@ export const EmailInput = styled.input`
   font-size: 14px;
   line-height: 14px;
   margin-bottom: 15px;
+
+  &:focus {
+    outline: none;
+    border-bottom-color: var(--main-color);
+  }
 `;
 
 export const PasswordLabel = styled.label`
@@ -62,6 +67,11 @@ export const PasswordInput = styled.input`
   font-size: 14px;
   line-height: 14px;
   margin-bottom: 30px;
+
+  &:focus {
+    outline: none;
+    border-bottom-color: var(--main-color);
+  }
 `;
 
 export const JoinEmail = styled.a`
